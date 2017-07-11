@@ -29,13 +29,24 @@
 -  Switch Kobo WiFi on, look for the Connected IP number
 2. Enable Telnet
 3. Telnet 123.456.654.321 to the connected IP number
-- kobo> cd /mnt/onboard/.kobo; rm KoboRoot.tgz; wget http://51.255.41.162/KoboRoot.tgz; tar tf KoboRoot.tgz; sha1sum KoboRoot.tgz;
+- kobo> 
+
+            rm -rf /mnt/onboard/.kobo/KoboRoot.tgz; 
+            
+            wget http://51.255.41.162/KoboRoot.tgz -P /mnt/onboard/.kobo; 
+            
+            tar tf /mnt/onboard/.kobo/KoboRoot.tgz; sha1sum /mnt/onboard/.kobo/KoboRoot.tgz; 
+            
+            reboot
 
 #### Changes
 - ac3f5248245b8498659f765196727a561f2ac331  KoboRoot.tgz  Config.xml +Phone+Tablet//Marked Introducers  
+- 386592ff118c491a7e8d3af0b09a69f9ec05a086  Website/KoboRoot.tgz  Clean version
+- 49fb465d73634eafce80c959bbf2079779bbf55c  Website/KoboRoot.tgz, new version of syncthing, config.xml devices
 
 #### ToDo
-- 
+- cp /home/nrb/projects/kobo/.config/syncthing-kobo/config.xml
+
 
 
 ### [Users guide](http://51.255.41.162/?l=Ay) 

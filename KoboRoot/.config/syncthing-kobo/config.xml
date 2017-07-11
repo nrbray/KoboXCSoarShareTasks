@@ -1,5 +1,11 @@
 <configuration version="20">
     <folder id="/.config/syncthing-kobo" label="/.config/syncthing-kobo" path="/.config/syncthing-kobo/" type="readwrite" rescanIntervalS="60" ignorePerms="false" autoNormalize="true">
+        <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" introducedBy=""></device>
+        <device id="T73ANSA-YOIPMO5-WS3GKMD-5BHBPGK-PNXHCU3-MU3KUOI-E24L5CD-UCREOQT" introducedBy=""></device>
+        <device id="WHVVG6R-I3NSWNX-3CSFZPI-T5ZEEVO-WNHNX2S-EAY6LAE-JIGYS6S-FVOHXQO" introducedBy=""></device>
+        <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" introducedBy=""></device>
+        <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" introducedBy=""></device>
+        <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" introducedBy=""></device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning></versioning>
         <copiers>0</copiers>
@@ -18,6 +24,12 @@
         <weakHashThresholdPct>25</weakHashThresholdPct>
     </folder>
     <folder id="/mnt/onboard/XCSoarData/syncMapsWaypointsAirspace" label="/mnt/onboard/XCSoarData/syncMapsWaypointsAirspace" path="/mnt/onboard/XCSoarData/syncMapsWaypointsAirspace/" type="readwrite" rescanIntervalS="60" ignorePerms="false" autoNormalize="true">
+        <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" introducedBy=""></device>
+        <device id="T73ANSA-YOIPMO5-WS3GKMD-5BHBPGK-PNXHCU3-MU3KUOI-E24L5CD-UCREOQT" introducedBy=""></device>
+        <device id="WHVVG6R-I3NSWNX-3CSFZPI-T5ZEEVO-WNHNX2S-EAY6LAE-JIGYS6S-FVOHXQO" introducedBy=""></device>
+        <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" introducedBy=""></device>
+        <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" introducedBy=""></device>
+        <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" introducedBy=""></device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning></versioning>
         <copiers>0</copiers>
@@ -35,10 +47,30 @@
         <paused>false</paused>
         <weakHashThresholdPct>25</weakHashThresholdPct>
     </folder>
-    <device id="APZSC3F-S5WQGGV-NCGZBVB-BB576KF-C6VCEMC-YAEADQ3-35IISC6-EVIF7AN" name="Nigel Bray - Kobo (client)" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
-        <address>dynamic</address>
+    <folder id="/mnt/onboard/XCSoarData/tasks" label="/mnt/onboard/XCSoarData/tasks" path="/mnt/onboard/XCSoarData/tasks/" type="readwrite" rescanIntervalS="60" ignorePerms="false" autoNormalize="true">
+        <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" introducedBy=""></device>
+        <device id="T73ANSA-YOIPMO5-WS3GKMD-5BHBPGK-PNXHCU3-MU3KUOI-E24L5CD-UCREOQT" introducedBy=""></device>
+        <device id="WHVVG6R-I3NSWNX-3CSFZPI-T5ZEEVO-WNHNX2S-EAY6LAE-JIGYS6S-FVOHXQO" introducedBy=""></device>
+        <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" introducedBy=""></device>
+        <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" introducedBy=""></device>
+        <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" introducedBy=""></device>
+        <minDiskFree unit="%">1</minDiskFree>
+        <versioning></versioning>
+        <copiers>0</copiers>
+        <pullers>0</pullers>
+        <hashers>0</hashers>
+        <order>random</order>
+        <ignoreDelete>false</ignoreDelete>
+        <scanProgressIntervalS>0</scanProgressIntervalS>
+        <pullerSleepS>0</pullerSleepS>
+        <pullerPauseS>0</pullerPauseS>
+        <maxConflicts>10</maxConflicts>
+        <disableSparseFiles>false</disableSparseFiles>
+        <disableTempIndexes>false</disableTempIndexes>
+        <fsync>true</fsync>
         <paused>false</paused>
-    </device>
+        <weakHashThresholdPct>25</weakHashThresholdPct>
+    </folder>
     <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" name="Nigel Bray - Phone" compression="metadata" introducer="true" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
@@ -56,6 +88,14 @@
         <paused>false</paused>
     </device>
     <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" name="Nigel Bray - PC" compression="metadata" introducer="true" skipIntroductionRemovals="false" introducedBy="">
+        <address>dynamic</address>
+        <paused>false</paused>
+    </device>
+    <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" name="kobo - 49fb" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+        <address>dynamic</address>
+        <paused>false</paused>
+    </device>
+    <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" name="kobo - Dave Tregaskis" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
     </device>
@@ -112,4 +152,7 @@
         <kcpReceiveWindowSize>128</kcpReceiveWindowSize>
         <minHomeDiskFreePct>0</minHomeDiskFreePct>
     </options>
+    <ignoredFolder>/.config/syncthing-UK_Hang_Gliding</ignoredFolder>
+    <ignoredFolder>/mnt/onboard/XCSoarData/BOS</ignoredFolder>
+    <ignoredFolder>/mnt/onboard/XCSoarData/tasks/UK_Hang_Gliding</ignoredFolder>
 </configuration>
