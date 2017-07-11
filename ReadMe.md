@@ -43,6 +43,8 @@
 - ac3f5248245b8498659f765196727a561f2ac331  KoboRoot.tgz  Config.xml +Phone+Tablet//Marked Introducers  
 - 386592ff118c491a7e8d3af0b09a69f9ec05a086  Website/KoboRoot.tgz  Clean version
 - 49fb465d73634eafce80c959bbf2079779bbf55c  Website/KoboRoot.tgz, new version of syncthing, config.xml devices
+- 4d47567e90174e01204282c5b737356715979d5e  Website/KoboRoot.tgz  remove unused devices from config
+
 
 #### ToDo
 - Make with latest config.xml: cp /home/nrb/projects/kobo/.config/syncthing-kobo/config.xml /home/nrb/projects/xcsoar/ShareAllTasks/KoboRoot/.config/syncthing-kobo/config.xml

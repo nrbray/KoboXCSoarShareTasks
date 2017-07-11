@@ -1,0 +1,14 @@
+# [Share Kobo task files on site](https://u.nu/sal)
+## User set up (Alpha testing)
+1. Put the Kobo in Nickel (eBook) mode. Connect the Kobo via USB (normal cable).  Wait for "Computer Connected".  Answer "Connect".
+1. Save <http://51.255.41.162/KoboRoot.tgz> to the .kobo folder on the Kobo.  
+2. Reboot and remain in XCSoar menu.
+3. Go to "Network".  "WiFi ON".  Wait, go to "WiFi" look for your connection.  Select "Connect" and add password if needed.  "Close".
+3. Before you can share tasks someone else in the group will need to "accept" you
+    - Pre-populated tasks "CS.tsk" and some others appear in Nav-Tasks-Browse  (in their own folder "tasks" if "tasks" not already created)
+
+## Usage (Alpha)
+1. Switch on WiFi, check there is an "IP" connection
+2. Choose a task as it appears, or
+3. Create a task to share with others on WiFi
+ 
