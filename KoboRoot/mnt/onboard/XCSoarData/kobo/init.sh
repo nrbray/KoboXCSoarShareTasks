@@ -1,2 +1,2 @@
-/bin/syncthing -home=/.config/syncthing-UK_Hang_Gliding &  
+/bin/syncthing -home=/.config/syncthing-kobo &  
 
