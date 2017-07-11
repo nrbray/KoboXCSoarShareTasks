@@ -5,7 +5,7 @@
 2. Reboot and remain in XCSoar menu.
 3. Go to "Network".  "WiFi ON".  Wait, go to "WiFi" look for your connection.  Select "Connect" and add password if needed.  "Close".
 3. Before you can share tasks someone else in the group will need to "accept" you
-    - Pre-populated tasks "CS.tsk" and some others appear in Nav-Tasks-Browse  (in their own folder "tasks" if "tasks" not already created)
+    - Pre-populated tasks appear in Nav-Tasks-Browse  (in their own folder "tasks" if "tasks" not already created)
 
 ## Usage (Alpha)
 1. Switch on WiFi, check there is an "IP" connection
