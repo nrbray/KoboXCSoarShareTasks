@@ -44,10 +44,10 @@
 - 386592ff118c491a7e8d3af0b09a69f9ec05a086  Website/KoboRoot.tgz  Clean version
 - 49fb465d73634eafce80c959bbf2079779bbf55c  Website/KoboRoot.tgz, new version of syncthing, config.xml devices
 - 4d47567e90174e01204282c5b737356715979d5e  Website/KoboRoot.tgz  remove unused devices from config
-
+- ff4b06ac39473fe19c07b6f23f95cf480f29e034  Website/KoboRoot.tgz Make with latest config.xml, More consistent device names
 
 #### ToDo
-- Make with latest config.xml: cp /home/nrb/projects/kobo/.config/syncthing-kobo/config.xml /home/nrb/projects/xcsoar/ShareAllTasks/KoboRoot/.config/syncthing-kobo/config.xml
+- I have just started using XCSoar on a Kobo and thought it might be useful to be able to share tasks whilst on the hill.  There is no NFC or camera to use QR code so have put together this patch: https://github.com/nrbray/KoboXCSoarShareTasks/blob/master/Install.mkd.  All tasks starting with a capital letter are then shared with the other Kobo users.  (use lower case to keep it local to the device).
 
 
 
