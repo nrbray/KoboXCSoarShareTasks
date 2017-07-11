@@ -1,10 +1,10 @@
 <configuration version="20">
     <folder id="/.config/syncthing-kobo" label="/.config/syncthing-kobo" path="/.config/syncthing-kobo/" type="readwrite" rescanIntervalS="60" ignorePerms="false" autoNormalize="true">
         <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" introducedBy=""></device>
+        <device id="IZKTRWX-NVTLFY4-DFC6RP3-5SURBF4-DGK6ZAV-UM2NHFS-IURN54P-ZEAINAG" introducedBy=""></device>
         <device id="T73ANSA-YOIPMO5-WS3GKMD-5BHBPGK-PNXHCU3-MU3KUOI-E24L5CD-UCREOQT" introducedBy=""></device>
         <device id="WHVVG6R-I3NSWNX-3CSFZPI-T5ZEEVO-WNHNX2S-EAY6LAE-JIGYS6S-FVOHXQO" introducedBy=""></device>
         <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" introducedBy=""></device>
-        <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" introducedBy=""></device>
         <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" introducedBy=""></device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning></versioning>
@@ -25,10 +25,10 @@
     </folder>
     <folder id="/mnt/onboard/XCSoarData/syncMapsWaypointsAirspace" label="/mnt/onboard/XCSoarData/syncMapsWaypointsAirspace" path="/mnt/onboard/XCSoarData/syncMapsWaypointsAirspace/" type="readwrite" rescanIntervalS="60" ignorePerms="false" autoNormalize="true">
         <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" introducedBy=""></device>
+        <device id="IZKTRWX-NVTLFY4-DFC6RP3-5SURBF4-DGK6ZAV-UM2NHFS-IURN54P-ZEAINAG" introducedBy=""></device>
         <device id="T73ANSA-YOIPMO5-WS3GKMD-5BHBPGK-PNXHCU3-MU3KUOI-E24L5CD-UCREOQT" introducedBy=""></device>
         <device id="WHVVG6R-I3NSWNX-3CSFZPI-T5ZEEVO-WNHNX2S-EAY6LAE-JIGYS6S-FVOHXQO" introducedBy=""></device>
         <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" introducedBy=""></device>
-        <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" introducedBy=""></device>
         <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" introducedBy=""></device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning></versioning>
@@ -49,10 +49,10 @@
     </folder>
     <folder id="/mnt/onboard/XCSoarData/tasks" label="/mnt/onboard/XCSoarData/tasks" path="/mnt/onboard/XCSoarData/tasks/" type="readwrite" rescanIntervalS="60" ignorePerms="false" autoNormalize="true">
         <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" introducedBy=""></device>
+        <device id="IZKTRWX-NVTLFY4-DFC6RP3-5SURBF4-DGK6ZAV-UM2NHFS-IURN54P-ZEAINAG" introducedBy=""></device>
         <device id="T73ANSA-YOIPMO5-WS3GKMD-5BHBPGK-PNXHCU3-MU3KUOI-E24L5CD-UCREOQT" introducedBy=""></device>
         <device id="WHVVG6R-I3NSWNX-3CSFZPI-T5ZEEVO-WNHNX2S-EAY6LAE-JIGYS6S-FVOHXQO" introducedBy=""></device>
         <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" introducedBy=""></device>
-        <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" introducedBy=""></device>
         <device id="2PBVCQW-3XYOWGD-2XIKFM6-ENCD6J6-TIM7MIV-PJ23JPJ-HXUHHSP-VJ6UJAW" introducedBy=""></device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning></versioning>
@@ -71,11 +71,11 @@
         <paused>false</paused>
         <weakHashThresholdPct>25</weakHashThresholdPct>
     </folder>
-    <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" name="Nigel Bray - Phone" compression="metadata" introducer="true" skipIntroductionRemovals="false" introducedBy="">
+    <device id="IQX7CXJ-FAUBM56-PYASPJC-2M62BYG-Z3FDFKG-2D5KTWM-RV727VX-EZ26XQ4" name="Nigel Bray - Phone" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
     </device>
-    <device id="QXV67GK-QQ7SR7W-EWG6RNC-HNZ46XB-TQ6KQ5G-H5CUQI5-A7LQBCL-7L3XFQT" name="Nigel Bray - Kobo1 (template for setup)" compression="metadata" introducer="true" skipIntroductionRemovals="false" introducedBy="">
+    <device id="IZKTRWX-NVTLFY4-DFC6RP3-5SURBF4-DGK6ZAV-UM2NHFS-IURN54P-ZEAINAG" name="kobo - IZKTRWX" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
     </device>
@@ -88,10 +88,6 @@
         <paused>false</paused>
     </device>
     <device id="W6XR23K-WBQSICF-65RJOA4-CL3FZHV-DPYKOUQ-QBQSGN6-MBGTYW5-KHXD4A5" name="Nigel Bray - PC" compression="metadata" introducer="true" skipIntroductionRemovals="false" introducedBy="">
-        <address>dynamic</address>
-        <paused>false</paused>
-    </device>
-    <device id="2AT2ZYT-PJ3X2NK-UUX7G6G-XCLF7NM-4YICFMR-6WLO3Q3-BITH2PM-JSBMYQX" name="kobo - 49fb" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
     </device>

@@ -45,7 +45,7 @@
 - 49fb465d73634eafce80c959bbf2079779bbf55c  Website/KoboRoot.tgz, new version of syncthing, config.xml devices
 
 #### ToDo
-- cp /home/nrb/projects/kobo/.config/syncthing-kobo/config.xml
+- Make with latest config.xml: cp /home/nrb/projects/kobo/.config/syncthing-kobo/config.xml /home/nrb/projects/xcsoar/ShareAllTasks/KoboRoot/.config/syncthing-kobo/config.xml
 
 
 
