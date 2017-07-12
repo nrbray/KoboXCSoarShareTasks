@@ -1,4 +1,23 @@
-# Global share of XCSoar tasks folder
+# [Global share of XCSoar tasks folder](http://51.255.41.162/?l=KX)  
+## Summary
+Using XCSoar on a Kobo this [patch](http://51.255.41.162/?l=sal) might be useful to be able to share tasks whilst *on the hill*. There is no NFC or camera to use QR code so have this working as a peer to peer sync after connecting to a nearby WiFi. All tasks starting with a capital letter are then shared with the other Kobo users. (use lower case to keep it local to the device).
+
+Peer to peer file sharing uses normal WiFi and an application called [Syncthing](https://syncthing.net).  
+
+To provide this patch, one new executable is added, '[Syncthing](https://docs.syncthing.net/users/syncthing.html)', an init.sh script to start it on boot, and configuration files to identify the initial peer devices and folders to share.
+
+To get this going the initial peer devices are my (Nigel Bray) Phone, Tablet, PC and Server!  Whilst this is intended only for Kobo's; using my devices will enable new joiners to be accepted with as short a delay as possible.  Anyone who is accepted will then be able to accept others to the group.  [Exactly how to do this is additional information to what is described below.]
+
+Initial XCSoar folders to share are: XCSoarData/tasks and XCSoarData/syncMapsWaypointsAirspace.  [My understanding is XCSoar only recognises tasks under the tasks folder; any other folder may store Maps Waypoints Airspace].
+
+It was chosen to begin by syncing the config.xml configuration between all users with the aim of making this deployment as simple to use as possible.  
+
+One generic .stglobalignore file is used in the three synced folders to define which files are synced and which are kept local.  This is set so that files with an initial capital, .cup extension, and config.xml are shared and others remain local to the device.
+
+Note that while there is some protection against access to shared Kobo's from outside the group, the group sharing files are inside this security and  trusted.  The intention is to identify and trust people who can be found on a Telegram or Facebook XCSoar user group and those contact details be referred to.
+
+[@nrbray](https://web.telegram.org/#/im?p=@nrbray)
+
 ## References
 - <http://mycloudbase.com/xcsoar/index.htm>
 - <https://www.mobileread.com/forums/showpost.php?p=3242998>
@@ -6,6 +25,7 @@
 - <http://gethighstayhigh.co.uk/xcsoar-tips/>
 - <http://max.kellermann.name/projects/xcsoar/kobo.html> 
 - <https://en.wikipedia.org/wiki/Syncthing>
+
 ## Technique
 - /mnt/onboard/.kobo/[KoboRoot.tgz](./Website/KoboRoot.tgz)
 - /mnt/onboard/XCSoarData/kobo/[init.sh](./KoboRoot/mnt/onboard/XCSoarData/kobo/init.sh)  
@@ -45,9 +65,10 @@
 - 49fb465d73634eafce80c959bbf2079779bbf55c  Website/KoboRoot.tgz, new version of syncthing, config.xml devices
 - 4d47567e90174e01204282c5b737356715979d5e  Website/KoboRoot.tgz  remove unused devices from config
 - ff4b06ac39473fe19c07b6f23f95cf480f29e034  Website/KoboRoot.tgz Make with latest config.xml, More consistent device names
+- tbc Added Summary
 
 #### ToDo
-- I have just started using XCSoar on a Kobo and thought it might be useful to be able to share tasks whilst on the hill.  There is no NFC or camera to use QR code so have put together this patch: https://github.com/nrbray/KoboXCSoarShareTasks/blob/master/Install.mkd.  All tasks starting with a capital letter are then shared with the other Kobo users.  (use lower case to keep it local to the device).
+- Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server [I apologise now, AFAIK this is not well supported in the Apple domain so far]).
 
 
 
