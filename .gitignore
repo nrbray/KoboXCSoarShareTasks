@@ -1,5 +1,5 @@
 /Website**
-/KoboRoot.tgz
+KoboRoot.tgz
 /syncthing*
 /KoboRoot/bin/syncthing
-
+/config.xml
