@@ -1,6 +1,6 @@
-# [Global share of XCSoar tasks folder](http://51.255.41.162/?l=KX)  
+# [Global share of XCSoar tasks folder](https://u.nu/-jeo)  
 ## Summary
-Using XCSoar on a Kobo this [patch](http://51.255.41.162/?l=sal) might be useful to be able to share tasks whilst *on the hill*. There is no NFC or camera to use QR code so have this working as a peer to peer sync after connecting to a nearby WiFi. All tasks starting with a capital letter are then shared with the other Kobo users. (use lower case to keep it local to the device).
+Using XCSoar on a Kobo this [patch](https://u.nu/sal) might be useful to be able to share tasks whilst *on the hill*. There is no NFC or camera to use QR code so have this working as a peer to peer sync after connecting to a nearby WiFi. All tasks starting with a capital letter are then shared with the other Kobo users. (use lower case to keep it local to the device).
 
 Peer to peer file sharing uses normal WiFi and an application called [Syncthing](https://syncthing.net).  
 

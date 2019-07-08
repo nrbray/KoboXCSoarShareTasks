@@ -1,14 +1,48 @@
-# [Share Kobo task files on site](https://u.nu/sal)
-## User set up (Alpha testing)
-1. Put the Kobo in Nickel (eBook) mode. Connect the Kobo via USB (normal cable).  Wait for "Computer Connected".  Answer "Connect".
-1. Save <http://51.255.41.162/KoboRoot.tgz> to the .kobo folder on the Kobo.  
-2. Reboot and remain in XCSoar menu.
-3. Go to "Network".  "WiFi ON".  Wait, go to "WiFi" look for your connection.  Select "Connect" and add password if needed.  "Close".
-3. Before you can share tasks someone else in the group will need to "accept" you
-    - Pre-populated tasks appear in Nav-Tasks-Browse  (in their own folder "tasks" if "tasks" not already created)
+# [Share Kobo task files](https://u.nu/sal)
+## Setup via USB cable 
+1. Connect the Kobo via USB (normal cable) to a PC that is on.
+2. [Nickel] -- main menu option.  (Puts the Kobo in eBook mode.)
+3. Wait for "Computer detected".  Answer "Connect".
+4. Save <http://51.255.41.162/KoboRoot.tgz> to the .kobo folder on the Kobo.  
+5. Reboot into the XCSoar menu.
+6. [Network] -- main menu option.  
+7. [Wifi_ON] -- menu option. Wait 30 seconds until "WiFi ON" -> "Wifi OFF" and "Wifi" below goes black.
+8. Do the next bit once for one WiFi hotspot and again for any additional hotspot
+9. [WiFi] -- menu option. Look for your connection.  Select "Connect" and add password if needed.  "Close".
+    - Sometimes it is better/quicker/works first time to go to [Nickel] -- main menu option, Ebook mode and connect to WiFi there instead
 
-## Usage (Alpha)
-1. Switch on WiFi, check there is an "IP" connection
-2. Choose a task as it appears, or
-3. Create a task to share with others on WiFi
+## Usage 
+9. [Network] -- main menu option.  
+10. [Wifi_ON] -- menu option. Wait 30 seconds until "WiFi ON" -> "Wifi OFF" and "Wifi" below goes black.
+11. **Before you can share tasks** I/someone else in the group will need to "accept" you: wait and check this is done
+12. New tasks appear in the menu [Nav]-[Task]-[Manage]-[Browse]
+13. Turn off WiFi before flying to save battery
  
+## Setup via USB cable 
+1. Network -- main menu option
+2. WiFi ON
+3. Telnet Server
+4. Wifi -- find [IP number]
+5. telnet [IP number] -- from a computer connected to the same WiFi 
+6. paste the following line
+7. wget http://51.255.41.162/KoboRoot.tgz -P /mnt/onboard/.kobo; reboot
+8. and wait for the Kobo to reboot
+
+# Update XCSoar to release 6.8.11
+## USB cable way
+1. Connect the Kobo via USB (normal cable) to a PC that is on.
+2. [Nickel] -- main menu option.  (Puts the Kobo in eBook mode.)
+3. Wait for "Computer detected".  Answer "Connect".
+4. Save <http://download.xcsoar.org/releases/6.8.11/KOBO/KoboRoot.tgz> to the .kobo folder on the Kobo.  
+
+## Setup over WiFi
+1. Network -- main menu option
+2. WiFi ON
+3. Telnet Server
+4. Wifi -- find [IP number]
+5. telnet [IP number] -- from a computer connected to the same WiFi 
+6. paste the following line 
+7. wget http://download.xcsoar.org/releases/6.8.11/KOBO/KoboRoot.tgz -P /mnt/onboard/.kobo; reboot
+8. and wait for the Kobo to reboot
+
+<https://u.nu/kw4c>
