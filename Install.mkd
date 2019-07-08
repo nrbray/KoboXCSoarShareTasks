@@ -29,7 +29,7 @@
 8. and wait for the Kobo to reboot
 
 # Update XCSoar to release 6.8.11
-## USB cable way
+## Setup via USB cable 
 1. Connect the Kobo via USB (normal cable) to a PC that is on.
 2. [Nickel] -- main menu option.  (Puts the Kobo in eBook mode.)
 3. Wait for "Computer detected".  Answer "Connect".
