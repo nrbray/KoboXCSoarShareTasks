@@ -25,7 +25,8 @@
 4. Wifi -- find [IP number]
 5. telnet [IP number] -- from a computer connected to the same WiFi 
 6. paste the following line
-7. wget http://51.255.41.162/KoboRoot.tgz -P /mnt/onboard/.kobo; reboot
+7. wget http://51.255.41.162/KoboRoot.tgz -P /mnt/onboard/.kobo && reboot
+   - wget http://51.255.41.162/fly/KoboRoot.tgz -P /mnt/onboard/.kobo && reboot # FlexiBOS
 8. and wait for the Kobo to reboot
 
 # Update XCSoar to release 6.8.11

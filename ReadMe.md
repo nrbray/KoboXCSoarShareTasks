@@ -94,3 +94,15 @@ Note that while there is some protection against access to shared Kobo's from ou
 
 
 
+# Appendicies
+## Appendix: FlexiBOS version
+
+1. adduser FlexiBOS --system --group --disabled-password  --home /var/syncthing/FlexiBOS
+    Adding system user `FlexiBOS' (UID 111) ...
+    Adding new group `FlexiBOS' (GID 116) ...
+    Adding new user `FlexiBOS' (UID 111) with group `FlexiBOS' ...
+    Creating home directory `/var/syncthing/FlexiBOS' ..
+2. create /etc/systemd/system/syncthing-resume.service  /etc/systemd/system/syncthing@.service
+3. sudo systemctl enable syncthing@FlexiBOS.service
+4. sudo systemctl start syncthing@FlexiBOS.service
+5. sudo systemctl status syncthing@FlexiBOS.service

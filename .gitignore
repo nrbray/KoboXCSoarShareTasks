@@ -3,3 +3,5 @@ KoboRoot.tgz
 /syncthing*
 /KoboRoot/bin/syncthing
 /config.xml
+FlexiBOS-config.xml
+KoboRoot/.config/syncthing-kobo/config.xml
