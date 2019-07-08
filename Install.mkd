@@ -18,7 +18,7 @@
 12. New tasks appear in the menu [Nav]-[Task]-[Manage]-[Browse]
 13. Turn off WiFi before flying to save battery
  
-## Setup via USB cable 
+## Setup over WiFi 
 1. Network -- main menu option
 2. WiFi ON
 3. Telnet Server

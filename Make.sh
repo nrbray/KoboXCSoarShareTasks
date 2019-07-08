@@ -10,3 +10,6 @@ sha1sum Website/KoboRoot.tgz;
 scp Website/KoboRoot.tgz nrb@51.255.41.162:KoboRoot.tgz; # http://162.ip-51-255-41.eu/ 
 wget http://51.255.41.162/KoboRoot.tgz; 
 sha1sum KoboRoot.tgz; 
+pandoc -s Install.mkd -o Task-Sync.html
+rsync -avx Task-Sync.html amsl.consulting:/var/www/html/fly/
+rm Task-Sync.html
