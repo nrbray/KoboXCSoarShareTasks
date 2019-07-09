@@ -68,8 +68,8 @@ Note that while there is some protection against access to shared Kobo's from ou
 - tbc Added Summary
 
 #### ToDo
-- Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server [I apologise now, AFAIK this is not well supported in the Apple domain so far]).
-
+- Todo: Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server [I apologise now, AFAIK this is not well supported in the Apple domain so far]).
+- Todo: Paramaterise Make*.sh
 
 
 ### [Users guide](http://51.255.41.162/?l=Ay) 

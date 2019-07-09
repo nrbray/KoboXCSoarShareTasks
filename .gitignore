@@ -5,3 +5,4 @@ KoboRoot.tgz
 /config.xml
 FlexiBOS-config.xml
 KoboRoot/.config/syncthing-kobo/config.xml
+KoboRoot/.config/syncthing-kobo/version.txt

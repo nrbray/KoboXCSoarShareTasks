@@ -2,7 +2,7 @@
 1. Connect the Kobo via USB (normal cable) to a PC that is on.
 2. [Nickel] -- main menu option.  (Puts the Kobo in eBook mode.)
 3. Wait for "Computer detected".  Answer "Connect".
-4. Save <http://vps221852.ovh.net/fly/KoboRoot.tgz> to the .kobo folder on the Kobo.  
+4. Save <http://51.255.41.162/fly/KoboRoot.tgz> to the .kobo folder on the Kobo.  
 5. Reboot into the XCSoar menu.
 6. [Network] -- main menu option.  
 7. [Wifi_ON] -- Network menu option. Wait 30 seconds until "WiFi ON" -> "Wifi OFF" and "Wifi" below goes black.
