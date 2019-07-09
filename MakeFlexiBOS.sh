@@ -1,7 +1,7 @@
 cp FlexiBOS-config.xml KoboRoot/.config/syncthing-kobo/config.xml
 rm syncthing-linux-arm-v*.*.*.tar.gz*
 mkdir -p KoboRoot/bin  Website/FlexiBOS/out 
-wget https://github.com/syncthing/syncthing/releases/download/v1.1.4/syncthing-linux-arm-v1.1.4.tar.gz 
+wget https://github.com/syncthing/syncthing/releases/download/v1.2.0/syncthing-linux-arm-v1.2.0.tar.gz 
 tar xzvf syncthing-linux-arm-v1.1.4.tar.gz --strip-components 1 -C KoboRoot/bin/ syncthing-linux-arm-v1.1.4/syncthing 
 git rev-parse --verify HEAD >KoboRoot/.config/syncthing-kobo/version.txt
 tree -a -I '.git' --matchdirs 
