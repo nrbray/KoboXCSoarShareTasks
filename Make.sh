@@ -6,10 +6,8 @@ tar xzvf syncthing-linux-arm-v1.1.4.tar.gz --strip-components 1 -C KoboRoot/bin/
 tree -a -I '.git' --matchdirs; 
 tar -cvzf Website/KoboRoot.tgz -C KoboRoot .;
 sha1sum Website/KoboRoot.tgz; 
-# rm KoboRoot/bin/syncthing KoboRoot.tgz
+rm KoboRoot/bin/syncthing KoboRoot.tgz
 scp Website/KoboRoot.tgz nrb@51.255.41.162:KoboRoot.tgz; # http://162.ip-51-255-41.eu/ 
 wget http://51.255.41.162/KoboRoot.tgz; 
 sha1sum KoboRoot.tgz; 
-pandoc -s Install.mkd -o Task-Sync.html
-rsync -avx Task-Sync.html *.md *.mkd amsl.consulting:/var/www/html/fly/
-rm Task-Sync.html
+rsync -avx *.md *.mkd amsl.consulting:/var/www/html/fly/
