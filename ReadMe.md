@@ -36,7 +36,7 @@ Note that while there is some protection against access to shared Kobo's from ou
            <address>0.0.0.0:8080</address>
 
 - [init.sh] /bin/syncthing -home=-home=/.config/syncthing-kobo
-- Watch syncthing folders: [Admin](http://127.0.0.1:8384) [Server](https://51.255.41.162:8384/) [MyKobo](http://192.168.8.100:8384/)
+- Watch syncthing folders: [Admin](http://127.0.0.1:8384) [Server](https://vps221852.ovh.net:8384/) [MyKobo](http://192.168.8.100:8384/)
 - Folders:
     - /bin
     - /mnt/onboard/.kobo
@@ -53,7 +53,7 @@ Note that while there is some protection against access to shared Kobo's from ou
 
             rm -rf /mnt/onboard/.kobo/KoboRoot.tgz; 
             
-            wget http://51.255.41.162/KoboRoot.tgz -P /mnt/onboard/.kobo; 
+            wget http://vps221852.ovh.net/KoboRoot.tgz -P /mnt/onboard/.kobo; 
             
             tar tf /mnt/onboard/.kobo/KoboRoot.tgz; sha1sum /mnt/onboard/.kobo/KoboRoot.tgz; 
             
@@ -69,10 +69,10 @@ Note that while there is some protection against access to shared Kobo's from ou
 
 #### ToDo
 - Todo: Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server [I apologise now, AFAIK this is not well supported in the Apple domain so far]).
-- Todo: Paramaterise Make*.sh
 
 
-### [Users guide](http://51.255.41.162/?l=Ay) 
+
+### [Users guide](http://vps221852.ovh.net/?l=Ay) 
 
 
 
@@ -106,3 +106,30 @@ Note that while there is some protection against access to shared Kobo's from ou
 3. sudo systemctl enable syncthing@FlexiBOS.service
 4. sudo systemctl start syncthing@FlexiBOS.service
 5. sudo systemctl status syncthing@FlexiBOS.service
+
+## Appendix: What happens if someone put a large amount of stuff in the folder?
+
+As pointed out by Paul Whatley, "The issue is if an individual has an almost full disk anyway and then several people store tasks in a short time. Maybe limit the size of the stuff on the folder."
+
+Whilst it is OK for anyone to 'tidy up' anytime settings to limit sizes or free space are available.  After a little research its default limit was 1% of space to be kept free for the files to sync (now set to 10%).  
+So on my Kobo (probably the smallest of any) there is always 130MB free for my own files (over 5 different map databases @21MB each).
+
+Kobo mini (Nigel) Total 1346MB
+Kobo mini (Nigel) Used   203MB
+Kobo mini (Nigel) Used     15% = Used/Total
+Kobo mini (Nigel) Free  1143MB = Total - Used
+Kobo mini (Nigel) Free     85% = (Total - Used)/Total
+Minimum Free Disk Space    10% == Default setting 1%
+Minimum Free Disk Space  130MB = 10% * Total 
+onboard/XCSoarData/tasks   0MB
+onboard/XCSoarData/sync   21MB == UK_HighRes.xcm
+
+## Apendix: Building in Rust
+
+            cat >>~/.cargo/config <<EOF
+            [target.armv7-unknown-linux-gnueabihf]
+            linker = "arm-linux-gnueabihf-gcc"
+            EOF
+
+            https://github.com/japaric/rust-cross/blob/master/README.md#how-do-i-compile-a-fully-statically-linked-rust-binaries 
+            https://users.rust-lang.org/t/static-cross-build-for-arm/9100
