@@ -68,8 +68,7 @@ Note that while there is some protection against access to shared Kobo's from ou
 - tbc Added Summary
 
 #### ToDo
-- Todo: Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server [I apologise now, AFAIK this is not well supported in the Apple domain so far]).
-
+- Todo: Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server).
 
 
 ### [Users guide](http://vps221852.ovh.net/?l=Ay) 
@@ -124,7 +123,7 @@ Minimum Free Disk Space  130MB = 10% * Total
 onboard/XCSoarData/tasks   0MB
 onboard/XCSoarData/sync   21MB == UK_HighRes.xcm
 
-## Apendix: Building in Rust
+## Appendix: Building in Rust
 
             cat >>~/.cargo/config <<EOF
             [target.armv7-unknown-linux-gnueabihf]
@@ -133,3 +132,21 @@ onboard/XCSoarData/sync   21MB == UK_HighRes.xcm
 
             https://github.com/japaric/rust-cross/blob/master/README.md#how-do-i-compile-a-fully-statically-linked-rust-binaries 
             https://users.rust-lang.org/t/static-cross-build-for-arm/9100
+
+## Appendix: Sensors
+
+Sensors required for the instrument can be derrived from:
+
+- Location service
+  - Phone positioning API from GNSS: GPS, Glonass, Galileo.
+  - Kobo connected to local device or [BlueNMEA](https://github.com/MaxKellermann/BlueNMEA/blob/master/README) "If your Android handset is connected to a WiFi network, any host on the network can connect to its IP address on TCP port 4352."
+- Airspeed compensated Vario
+  - either via an aerodynamic compensated chamber for the barometric pressure sensor, 
+  - or the barometric pressure sensor algorithmically compensated by a separate pitot tube speed airspeed sensor
+- Airspeed from a pitot tube speed airspeed sensor
+- Barometer from a barometric pressure sensor
+
+## Moving to Mesh
+
+- <https://web.fe.up.pt/~hsalgado/WD17_proceedings/resources/1570326515.pdf>
+- 
