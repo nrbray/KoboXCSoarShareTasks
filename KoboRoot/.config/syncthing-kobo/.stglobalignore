@@ -1,13 +1,9 @@
-// 
-// For internal operation, the config.xml and .stglobalignore files are shared.
-// All files with .cup extension are shared. (Useful to share with FlySkyHigh)
-// Files beginning with an upper case character are shared.
-// Files beginning with a lower case character or a digit may be considered to be local to the device.
-//
+// [Users guide](http://vps221852.ovh.net/fly/Task-Sync.html) 
+
 !/config.xml
+
 !/.stglobalignore
-!*.cup
-![A-Z]*
+
 **
 /cert.pem
 /csrftokens.txt
@@ -16,3 +12,7 @@
 /index-v0.14.0.db
 /key.pem
 
+CURRENT*
+LOG*
+MANIFEST*
+LOCK*

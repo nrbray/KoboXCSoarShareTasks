@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-readonly SyncthingVersion=v1.2.0
+readonly SyncthingVersion=v1.2.2
 # readonly STKServer=vps221852.ovh.net # 
 
 rm syncthing-linux-arm-v*.*.*.tar.gz*

@@ -71,7 +71,7 @@ Note that while there is some protection against access to shared Kobo's from ou
 - Todo: Facilitate any peer to be notified (telegram bot?) and accept new joiners.  (For now, those wishing to, may do so via the Syncthing app on a phone, PC or server).
 
 
-### [Users guide](http://vps221852.ovh.net/?l=Ay) 
+### [Users guide](http://vps221852.ovh.net/fly/Task-Sync.html) 
 
 
 
